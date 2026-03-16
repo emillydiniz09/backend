@@ -10,3 +10,7 @@ console.log('Após hora extra (horasTrabalhadas++): ${horasTrabalhadas)h');
 
 horasTrabalhadas--;
 console.log('Após saída antecipada: ${horasTrabalhadas)h');
+
+//cáculo final
+let taxaSistema = 15;
+let pagamentoTotal = (horasTrabalhadas + valorPorHora) - taxaSistema; 
